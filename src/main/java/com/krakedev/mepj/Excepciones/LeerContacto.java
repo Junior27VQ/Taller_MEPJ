@@ -21,7 +21,9 @@ private static final Logger log =LogManager.getLogger(LeerContacto.class);
 		try {
 			lectorArchivo = new FileReader(archivo);
 			lector =new BufferedReader(lectorArchivo);
-			log.info(lector.readLine());
+			for(int i=0; i<9; i++) {
+				log.info(lector.readLine());
+			}
 		}catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			log.error("Error al abrir el archivo");
