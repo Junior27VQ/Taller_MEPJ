@@ -7,7 +7,7 @@
 	</appender>
 	
 	<root level="INFO">
-			<AppenderRef ref="CONSOLE"/>
+			<appender-ref ref="CONSOLE"/>
 			
 	</root>
 </Configuration>
